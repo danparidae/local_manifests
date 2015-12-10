@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Devices -->
+	<!-- G3 variants -->
+		<project name="android_device_lge_d850" path="device/lge/d850" remote="th" revision="mm" />
+		<project name="android_device_lge_d851" path="device/lge/d851" remote="th" revision="mm" />
+		<project name="android_device_lge_d852" path="device/lge/d852" remote="th" revision="mm" />
+		<project name="android_device_lge_d855" path="device/lge/d855" remote="th" revision="mm" />
+		<project name="android_device_lge_f400" path="device/lge/f400" remote="th" revision="mm" />
+		<project name="android_device_lge_ls990" path="device/lge/ls990" remote="th" revision="mm" />
+		<project name="android_device_lge_vs985" path="device/lge/vs985" remote="th" revision="mm" />
+		<project name="android_device_lge_g3-common" path="device/lge/g3-common" remote="th" revision="mm" />
+
+	<!-- Optimus G -->
+		<project name="android_device_lge_geehrc" path="device/lge/geehrc" remote="th" revision="mm" />
+
+<!-- Kernels -->
+	<project name="android_kernel_lge_g3" path="kernel/lge/g3" remote="th" revision="mm" />
+	<project name="android_kernel_lge_gee" path="kernel/lge/gee" remote="th" revision="mm" />
+
+<!-- Common -->
+	<project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="th" revision="mm" />
+	<project name="vendor_lge" path="vendor/lge" remote="th" revision="mm" />
+
+<!-- G3 Stuff -->
+	<project name="android_external_stlport" path="external/stlport" remote="th" revision="mm" />
+	<project name="android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="th" revision="mm" />
+	<project name="android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="th" revision="mm" />
+
+</manifest>
