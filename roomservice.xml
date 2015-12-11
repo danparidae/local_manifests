@@ -22,6 +22,7 @@
 <!-- Common -->
 	<project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="th" revision="mm" />
 	<project name="vendor_lge" path="vendor/lge" remote="th" revision="mm" />
+	<project name="sultanxda/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="gh" revision="cm-13.0-caf" />
 
 <!-- G3 Stuff -->
 	<project name="android_external_stlport" path="external/stlport" remote="th" revision="mm" />
