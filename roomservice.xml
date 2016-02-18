@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	
+  <remote  name="th"
+           fetch="https://github.com/TeamHorizon/" />
 
 <!-- Devices -->
 	<!-- G3 variants -->
@@ -19,14 +22,7 @@
 	<project name="android_kernel_lge_g3" path="kernel/lge/g3" remote="th" revision="mm" />
 	<project name="android_kernel_lge_gee" path="kernel/lge/gee" remote="th" revision="mm" />
 
-<!-- Common -->
-	<project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="th" revision="mm" />
+<!-- Vendor -->
 	<project name="vendor_lge" path="vendor/lge" remote="th" revision="mm" />
-	<project name="sultanxda/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="gh" revision="cm-13.0-caf" />
-
-<!-- G3 Stuff -->
-	<project name="android_external_stlport" path="external/stlport" remote="th" revision="mm" />
-	<project name="android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="th" revision="mm" />
-	<project name="android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="th" revision="mm" />
 
 </manifest>
