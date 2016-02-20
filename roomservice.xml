@@ -35,7 +35,7 @@
 	<project name="vendor_lge" path="vendor/lge" remote="th" revision="mm" />
 	
 <!-- TWRP -->
-  <remove-project name="bootable/recovery"/>
+  <remove-project name="anroid_bootable_recovery"/>
 	<project name="android_bootable_recovery" path="bootable/recovery" remote="omni" revision="android-6.0" />
 
 <!-- Reducing download size -->
@@ -45,7 +45,6 @@
   <remove-project name="device/google/accessory/arduino"/>
   <remove-project name="device/google/accessory/demokit"/>
   <remove-project name="platform/prebuilts/eclipse"/>
-  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6"/>
   <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers"/>
   <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1"/>
   <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9"/>
