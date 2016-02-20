@@ -5,14 +5,15 @@
   <remote  name="omni"
            fetch="https://github.com/omnirom/" />
 
-<project name="twrp_g3_devices" path="device/lge/d850" remote="d1" revision="twrp-d850" />
-<project name="twrp_g3_devices" path="device/lge/d851" remote="d1" revision="twrp-d851" />
-<project name="twrp_g3_devices" path="device/lge/d852" remote="d1" revision="twrp-d852" />
-<project name="twrp_g3_devices" path="device/lge/d855" remote="d1" revision="twrp-d855" />
-<project name="twrp_g3_devices" path="device/lge/d856" remote="d1" revision="twrp-d856" />
-<project name="twrp_g3_devices" path="device/lge/f400" remote="d1" revision="twrp-f400" />
-<project name="twrp_g3_devices" path="device/lge/ls990" remote="d1" revision="twrp-ls990" />
-<project name="twrp_g3_devices" path="device/lge/vs985" remote="d1" revision="twrp-vs985" />
+<project name="twrp_devices" path="device/lge/d850" remote="d1" revision="twrp-d850" />
+<project name="twrp_devices" path="device/lge/d851" remote="d1" revision="twrp-d851" />
+<project name="twrp_devices" path="device/lge/d852" remote="d1" revision="twrp-d852" />
+<project name="twrp_devices" path="device/lge/d855" remote="d1" revision="twrp-d855" />
+<project name="twrp_devices" path="device/lge/d856" remote="d1" revision="twrp-d856" />
+<project name="twrp_devices" path="device/lge/f400" remote="d1" revision="twrp-f400" />
+<project name="twrp_devices" path="device/lge/geehrc" remote="d1" revision="twrp-geehrc" />
+<project name="twrp_devices" path="device/lge/ls990" remote="d1" revision="twrp-ls990" />
+<project name="twrp_devices" path="device/lge/vs985" remote="d1" revision="twrp-vs985" />
 
 <!-- TWRP -->
   <remove-project name="bootable/recovery"/>
