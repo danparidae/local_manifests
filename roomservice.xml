@@ -7,5 +7,4 @@
   <project name="proprietary_vendor_lge" path="vendor/lge" remote="pic" revision="cm-13.0" />
   <project name="android_device_lge_geehrc" path="device/lge/geehrc" remote="ss" revision="pac-6.0" />
   <project name="android_kernel_lge_gee" path="kernel/lge/gee" remote="ss" revision="pac-6.0" />
-  <project name="Split-Screen/android_device_lge_e975" path="device/lge/e975" remote="github" />
 </manifest>
