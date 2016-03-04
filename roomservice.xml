@@ -1,55 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
 <manifest>
-	
-  <remote  name="th"
-           fetch="https://github.com/TeamHorizon/" />
-  <remote  name="d1"
-           fetch="https://github.com/dadi11/" />
-  <remote  name="cm"
-           fetch="https://github.com/CyanogenMod/" />
-  <remote  name="omni"
-           fetch="https://github.com/omnirom/" />
-  <remote  name="ss"
-           fetch="https://github.com/Split-Screen/" />
-
-<!-- XenonHD -->
-	<project name="android_device_lge_d850" path="device/lge/d850" remote="th" revision="mm" />
-	<project name="android_device_lge_d851" path="device/lge/d851" remote="th" revision="mm" />
-	<project name="android_device_lge_d852" path="device/lge/d852" remote="th" revision="mm" />
-	<project name="android_device_lge_d855" path="device/lge/d855" remote="th" revision="mm" />
-	<project name="android_device_lge_f400" path="device/lge/f400" remote="th" revision="mm" />
-	<project name="android_device_lge_ls990" path="device/lge/ls990" remote="th" revision="mm" />
-	<project name="android_device_lge_vs985" path="device/lge/vs985" remote="th" revision="mm" />
-	<project name="android_device_lge_g3-common" path="device/lge/g3-common" remote="th" revision="mm" />
-	<project name="android_device_lge_geehrc" path="device/lge/geehrc" remote="th" revision="mm" />
-
-<!-- PAC-ROM -->
-	<project name="android_device_lge_d855" path="device/lge/d855" remote="ss" revision="pac-6.0" />
-	<project name="android_device_lge_g3-common" path="device/lge/g3-common" remote="ss" revision="pac-6.0" />
-
-<!-- Kernels -->
-	<project name="android_kernel_lge_g3" path="kernel/lge/g3" remote="th" revision="mm" />
-	<project name="android_kernel_lge_gee" path="kernel/lge/gee" remote="th" revision="mm" />
-
-<!-- Vendor -->
-	<project name="vendor_lge" path="vendor/lge" remote="th" revision="mm" />
-	
-<!-- TWRP -->
-  <remove-project name="anroid_bootable_recovery"/>
-	<project name="android_bootable_recovery" path="bootable/recovery" remote="omni" revision="android-6.0" />
-
-<!-- Reducing download size -->
-  <remove-project name="device/generic/mips"/>
-  <remove-project name="device/generic/mini-emulator-mips"/>
-  <remove-project name="device/generic/mini-emulator-arm64"/>
-  <remove-project name="device/google/accessory/arduino"/>
-  <remove-project name="device/google/accessory/demokit"/>
-  <remove-project name="platform/prebuilts/eclipse"/>
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers"/>
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1"/>
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9"/>
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9"/>
-  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5"/>
-  <remove-project name="platform/prebuilts/python/linux-x86/2.7.5"/>
-
+ <project name="TeamHorizon/android_device_lge_d855" path="device/lge/d855" remote="gh" revision="mm" />
+ <project name="android_device_lge_g3-common" path="device/lge/g3-common" remote="th" revision="mm" />
+ <project name="android_kernel_lge_g3" path="kernel/lge/g3" remote="th" revision="mm" />
+ <project name="vendor_lge" path="vendor/lge" remote="th" revision="mm" />
+ <project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="th" revision="mm" />
+ <project name="android_packages_apps_Snap" path="packages/apps/Snap" remote="th" revision="mm" />
+ <remove-project name="android_device_qcom_common" />
+ <project name="android_device_qcom_common" path="device/qcom/common" remote="th" revision="mm" />
+ <project name="TeamHorizon/android_device_lge_d850" path="device/lge/d850" remote="gh" revision="mm" />
+ <project name="TeamHorizon/android_device_lge_d851" path="device/lge/d851" remote="gh" revision="mm" />
+ <project name="TeamHorizon/android_device_lge_d852" path="device/lge/d852" remote="gh" revision="mm" />
+ <project name="TeamHorizon/android_device_lge_f400" path="device/lge/f400" remote="gh" revision="mm" />
+ <project name="TeamHorizon/android_device_lge_ls990" path="device/lge/ls990" remote="gh" revision="mm" />
+ <project name="TeamHorizon/android_device_lge_vs985" path="device/lge/vs985" remote="gh" revision="mm" />
+ <project name="TeamHorizon/android_device_lge_geehrc" path="device/lge/geehrc" remote="gh" revision="mm" />
+ <project name="android_kernel_lge_gee" path="kernel/lge/gee" remote="th" revision="mm" />
 </manifest>
