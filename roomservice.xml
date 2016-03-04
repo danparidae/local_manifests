@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Please do not manually edit this file-->
 <manifest>
- <project name="TeamHorizon/android_device_lge_d855" path="device/lge/d855" remote="gh" revision="mm" />
- <project name="android_device_lge_g3-common" path="device/lge/g3-common" remote="th" revision="mm" />
- <project name="android_kernel_lge_g3" path="kernel/lge/g3" remote="th" revision="mm" />
- <project name="vendor_lge" path="vendor/lge" remote="th" revision="mm" />
- <project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="th" revision="mm" />
- <project name="android_packages_apps_Snap" path="packages/apps/Snap" remote="th" revision="mm" />
- <remove-project name="android_device_qcom_common" />
- <project name="android_device_qcom_common" path="device/qcom/common" remote="th" revision="mm" />
- <project name="TeamHorizon/android_device_lge_d850" path="device/lge/d850" remote="gh" revision="mm" />
- <project name="TeamHorizon/android_device_lge_d851" path="device/lge/d851" remote="gh" revision="mm" />
- <project name="TeamHorizon/android_device_lge_d852" path="device/lge/d852" remote="gh" revision="mm" />
- <project name="TeamHorizon/android_device_lge_f400" path="device/lge/f400" remote="gh" revision="mm" />
- <project name="TeamHorizon/android_device_lge_ls990" path="device/lge/ls990" remote="gh" revision="mm" />
- <project name="TeamHorizon/android_device_lge_vs985" path="device/lge/vs985" remote="gh" revision="mm" />
- <project name="TeamHorizon/android_device_lge_geehrc" path="device/lge/geehrc" remote="gh" revision="mm" />
- <project name="android_kernel_lge_gee" path="kernel/lge/gee" remote="th" revision="mm" />
+    <remote  name="cm"
+           fetch="https://github.com/CyanogenMod/" />
+   <remote  name="d1"
+           fetch="https://github.com/dadi11/" />
+   <remote  name="du"
+           fetch="https://github.com/DirtyUnicorns/" />
+ <project name="android_device_lge_d855-1" path="device/lge/d855" remote="d1" revision="m-caf" />
+ <project name="android_device_lge_g3-common-2" path="device/lge/g3-common" remote="d1" revision="m-caf" />
+ <project name="android_kernel_lge_g3" path="kernel/lge/g3" remote="d1" revision="m-caf" />
+ <project name="android_vendor_lge" path="vendor/lge" remote="d1" revision="m-caf" />
+ <project name="android_packages_apps_Snap" path="packages/apps/Snap" remote="du" revision="m-caf" />
+ <project name="android_external_connectivity" path="external/connectivity" remote="du" revision="m-caf" />
+ <project name="android_hardware_qcom_fm" path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="cm" revision="cm-13.0" />
+    <remove-project name="platform/packages/apps/FMRadio"/>
+ <project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="cm" revision="cm-13.0" />
 </manifest>
