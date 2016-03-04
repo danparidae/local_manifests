@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote  name="cm"
+   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/" />
    <remote  name="d1"
            fetch="https://github.com/dadi11/" />
-   <remote  name="du"
-           fetch="https://github.com/DirtyUnicorns/" />
  <project name="android_device_lge_d855-1" path="device/lge/d855" remote="d1" revision="m-caf" />
  <project name="android_device_lge_g3-common-2" path="device/lge/g3-common" remote="d1" revision="m-caf" />
  <project name="android_kernel_lge_g3" path="kernel/lge/g3" remote="d1" revision="m-caf" />
