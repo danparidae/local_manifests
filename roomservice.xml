@@ -10,7 +10,7 @@
  <project name="du_device_lge_g3-common" path="device/lge/g3-common" remote="d1" revision="m-caf" />
  <project name="du_kernel_lge_g3" path="kernel/lge/g3" remote="d1" revision="m-caf" />
  <project name="proprietary_vendor_lge" path="vendor/lge" remote="tm" revision="cm-13.0" />
- <project name="android_packages_apps_Snap" path="packages/apps/Snap" remote="cm" revision="cm-13.0" />
+ <project name="du_packages_apps_Snap" path="packages/apps/Snap" remote="du" revision="m-caf" />
  <project name="android_external_connectivity" path="external/connectivity" remote="cm" revision="cm-13.0" />
  <project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="cm" revision="cm-13.0" />
     <remove-project name="android_packages_apps_FMRadio"/>
