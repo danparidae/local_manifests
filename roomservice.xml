@@ -13,13 +13,13 @@
 <project name="twrp_devices" path="device/lge/geehrc" remote="d1" revision="twrp-geehrc" />
 <project name="twrp_devices" path="device/lge/ls990" remote="d1" revision="twrp-ls990" />
 <project name="twrp_devices" path="device/lge/vs985" remote="d1" revision="twrp-vs985" />
-<project name="NebulaKernel" path="kernel/lge/g3" remote="d1" revision="twrp" />
+<project name="twrp_kernel" path="kernel/lge/g3" remote="d1" revision="twrp" />
 
 <project name="android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-13.0" />
 
 <!-- TWRP -->
   <remove-project name="android_bootable_recovery"/>
-<project name="android_bootable_recovery" path="bootable/recovery" remote="d1" revision="twrp" />
+<project name="twrp_recovery" path="bootable/recovery" remote="d1" revision="twrp" />
 
 <!-- Reducing download size -->
   <remove-project name="device/generic/mips"/>
