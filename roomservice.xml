@@ -4,6 +4,7 @@
            fetch="https://github.com/dadi11/" />
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/" />
+<project name="twrp_devices" path="device/xiaomi/kenzo" remote="d1" revision="twrp-kenzo" />
 <project name="twrp_devices" path="device/lge/d850" remote="d1" revision="twrp-d850" />
 <project name="twrp_devices" path="device/lge/d851" remote="d1" revision="twrp-d851" />
 <project name="twrp_devices" path="device/lge/d852" remote="d1" revision="twrp-d852" />
