@@ -7,4 +7,7 @@
   <project name="proprietary_vendor_lge" path="vendor/lge" remote="pic" revision="cm-13.0" />
   <project name="android_device_lge_geehrc" path="device/lge/geehrc" remote="ss" revision="pac-6.0" />
   <project name="android_kernel_lge_gee" path="kernel/lge/gee" remote="ss" revision="pac-6.0" />
+  <project name="android_device_xiaomi_kenzo" path="device/xiaomi/kenzo" remote="ss" revision="pac-6.0" />
+  <project name="android_kernel_xiaomi_kenzo" path="kernel/xiaomi/kenzo" remote="ss" revision="pac-6.0" />
+  <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="pic" revision="cm-13.0" />
 </manifest>
