@@ -5,6 +5,7 @@
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/" />
 <project name="twrp_devices" path="device/xiaomi/kenzo" remote="d1" revision="twrp-kenzo" />
+<project name="twrp_devices" path="device/xiaomi/kenzoinline" remote="d1" revision="twrp-kenzo-inline" />
 <project name="twrp_devices" path="device/lge/d850" remote="d1" revision="twrp-d850" />
 <project name="twrp_devices" path="device/lge/d851" remote="d1" revision="twrp-d851" />
 <project name="twrp_devices" path="device/lge/d852" remote="d1" revision="twrp-d852" />
@@ -14,7 +15,8 @@
 <project name="twrp_devices" path="device/lge/geehrc" remote="d1" revision="twrp-geehrc" />
 <project name="twrp_devices" path="device/lge/ls990" remote="d1" revision="twrp-ls990" />
 <project name="twrp_devices" path="device/lge/vs985" remote="d1" revision="twrp-vs985" />
-<project name="twrp_kernel" path="kernel/lge/g3" remote="d1" revision="twrp" />
+<project name="twrp_kernel" path="kernel/lge/g3" remote="d1" revision="twrp-g3" />
+<project name="twrp_kernel" path="kernel/xiaomi/kenzo" remote="d1" revision="twrp-kenzo" />
 
 <project name="android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-13.0" />
 
