@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Please do not manually edit this file-->
 <manifest>
- <project name="TeamHorizon/android_device_lge_d855" path="device/lge/d855" remote="gh" revision="mm" />
- <project name="android_device_lge_g3-common" path="device/lge/g3-common" remote="th" revision="mm" />
- <project name="android_kernel_lge_g3" path="kernel/lge/g3" remote="th" revision="mm" />
- <project name="vendor_lge" path="vendor/lge" remote="th" revision="mm" />
- <project name="TeamHorizon/android_device_lge_d850" path="device/lge/d850" remote="gh" revision="mm" />
- <project name="TeamHorizon/android_device_lge_d851" path="device/lge/d851" remote="gh" revision="mm" />
- <project name="TeamHorizon/android_device_lge_d852" path="device/lge/d852" remote="gh" revision="mm" />
- <project name="TeamHorizon/android_device_lge_f400" path="device/lge/f400" remote="gh" revision="mm" />
- <project name="TeamHorizon/android_device_lge_ls990" path="device/lge/ls990" remote="gh" revision="mm" />
- <project name="TeamHorizon/android_device_lge_vs985" path="device/lge/vs985" remote="gh" revision="mm" />
- <project name="TeamHorizon/android_device_lge_geehrc" path="device/lge/geehrc" remote="gh" revision="mm" />
- <project name="android_kernel_lge_gee" path="kernel/lge/gee" remote="th" revision="mm" />
- <project name="TeamHorizon/android_device_xiaomi_kenzo" path="device/xiaomi/kenzo" remote="gh" revision="mm" />
- <project name="android_kernel_xiaomi_kenzo" path="kernel/xiaomi/kenzo" remote="th" revision="mm" />
- <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="th" revision="mm" />
+    <project path="device/xiaomi/kenzo" name="dadi11/twrp_kenzo" remote="github" revision="mrom" />
+    <project path="kernel/xiaomi/kenzo" name="TeamHorizon/android_kernel_xiaomi_kenzo" remote="github" revision="n" />
+    <project path="device/qcom/common" name="TeamWin/android_device_qcom_common" remote="github" revision="android-7.1" />
+    <project path="system/extras/multirom" name="multirom-dev/multirom" remote="github" revision="master" />
+    <project path="system/extras/libbootimg" name="multirom-dev/libbootimg" remote="github" revision="master" />
+    <project path="system/extras/multirom/adbd" name="multirom-dev/multirom_adbd" remote="github" revision="master" />
+    <remove-project path="bootable/recovery" name="android_bootable_recovery" />
+    <project path="bootable/recovery" name="multirom-dev/Team-Win-Recovery-Project" remote="github" revision="android-7.1-mrom" />
 </manifest>
