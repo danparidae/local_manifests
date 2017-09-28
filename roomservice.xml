@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="device/xiaomi/kenzo" name="dadi11/twrp_kenzo" remote="github" revision="mrom" />
-    <project path="kernel/xiaomi/kenzo" name="TeamHorizon/android_kernel_xiaomi_kenzo" remote="github" revision="n" />
-    <project path="device/qcom/common" name="TeamWin/android_device_qcom_common" remote="github" revision="android-7.1" />
-    <project path="system/extras/multirom" name="multirom-dev/multirom" remote="github" revision="master" />
-    <project path="system/extras/libbootimg" name="multirom-dev/libbootimg" remote="github" revision="master" />
-    <project path="system/extras/multirom/adbd" name="multirom-dev/multirom_adbd" remote="github" revision="master" />
-    <remove-project path="bootable/recovery" name="android_bootable_recovery" />
-    <project path="bootable/recovery" name="multirom-dev/Team-Win-Recovery-Project" remote="github" revision="android-7.1-mrom" />
+  <remote  name="d1"
+           fetch="https://github.com/dadi11/" />  
+  <remote  name="bb"
+           fetch="https://bitbucket.org/dadi11/" />
+  <remove-project name="android_bootable_recovery"/>
+  <project name="*" path="bootable/recovery" remote="bb" revision="*" />
+  <project name="twrp_kenzo" path="device/xiaomi/kenzo" remote="d1" revision="twrp" />
+  <project name="twrp_mido" path="device/xiaomi/mido" remote="d1" revision="twrp" />
+  <project name="twrp_kernel" path="kernel/xiaomi/kenzo" remote="d1" revision="twrp-kenzo" />
+  <project name="twrp_kernel" path="kernel/xiaomi/mido" remote="d1" revision="twrp-mido" />
+  <project name="TeamWin/android_device_qcom_common" path="device/qcom/common" remote="github" revision="android-7.1" />
 </manifest>
